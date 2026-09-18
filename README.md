@@ -4,7 +4,7 @@ I build data platforms that outlive the person who wrote them.
 
 Eighteen years at a managed services provider, owning the systems the business runs on:
 the data warehouse, the billing platform, the client portal, and the security analytics
-product. Most of my work lives in private repositories — here's what it consists of.
+product. Most of my work lives in private repositories; here's what it consists of.
 
 ### Data platform
 Two generations of an enterprise warehouse, both designed and built solo. The current
@@ -22,7 +22,7 @@ upsert ETL, PowerShell module architecture.
 - **Full history, always.** Every row carries its temporal record. A trigger-generation
   framework produces 265 triggers across 89 tables, capturing 7.9M field-level changes
   over 20 years. It cost more up front and it has paid for itself at every audit since.
-- **Idempotency.** Every pipeline can be re-run without damage — dedup, scoped deletes,
+- **Idempotency.** Every pipeline can be re-run without damage; dedup, scoped deletes,
   staleness thresholds, per-source controls.
 - **Config over code.** New sources are configuration, not new programs.
 - **Documentation an engineer can run without me.** Standards, templates, contracts,
